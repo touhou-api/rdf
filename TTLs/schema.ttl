@@ -1,0 +1,30 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou: <https://touhou-api.org/schema/> .
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+
+# Classes
+
+touhou:Character        a   rdfs:Class;
+    rdfs:comment            "キャラクターを表すクラス";
+    rdfs:label              "キャラクター"@ja.
+
+touhou:Game             a   rdfs:Class;
+    rdfs:comment            "ゲームを表すクラス";
+    rdfs:label              "ゲーム"@ja.
+
+# Properties
+
+touhou:NameKana             a   rdfs:Property;
+    rdfs:comment                "名前のよみがなを表すプロパティ";
+    rdfs:label                  "種族"@ja.
+
+touhou:NamePronunciation    a   rdfs:Property;
+    rdfs:comment                "名前の発音を表すプロパティ";
+    rdfs:label                  "種族"@ja.
+
+touhou:Species              a   rdfs:Property;
+    rdfs:comment                "種族を表すプロパティ";
+    rdfs:label                  "種族"@ja.
