@@ -1,0 +1,111 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+<博麗_霊夢> a touhou:Character;
+    rdf:label                   "博麗 霊夢", "Reimu Hakurei"@en;
+    schema:name                 "博麗 霊夢", "Reimu Hakurei"@en;
+    touhou:NameKana             "はくれい れいむ";
+    touhou:NamePronunciation    "hakɯɽeː ɽeːmɯ";
+    touhou:Species              <人間>;
+    .
+
+<霧雨_魔理沙> a touhou:Character;
+    rdf:label                   "霧雨 魔理沙", "Marisa Kirisame"@en;
+    schema:name                 "霧雨 魔理沙", "Marisa Kirisame"@en;
+    touhou:NameKana             "きりさめ まりさ";
+    touhou:NamePronunciation    "kiɾisa̠me̞ ma̠ɾisa̠";
+    touhou:Species              <人間>;
+    .
+
+# 地霊殿
+
+<古明地_こいし> a touhou:Character;
+    rdf:label                   "Koishi Komeiji", "Koishi Komeiji"@en;
+    schema:name                 "Koishi Komeiji", "Koishi Komeiji"@en;
+    touhou:NameKana             "こめいじ こいし";
+    touhou:NamePronunciation    "komeːd͡ʑi koiɕi";
+    touhou:Species              <覚>;
+  # touhou:Game           game:<東方地霊殿>;
+  # touhou:Game           game:<ダブルスポイラー～東方文花帖>;
+  # touhou:Game           game:<東方心綺楼>;
+  # touhou:Game           game:<東方深秘録>;
+  # touhou:Game           game:<東方憑依華>;
+  # touhou:Game           game:<秘封ナイトメアダイアリー>;
+  # touhou:CharacterTitle <閉じた恋の瞳>;
+  # touhou:CharacterTitle <何も考えていない者>;
+  # touhou:CharacterTitle <空想上の人格保持者>;
+  # touhou:CharacterTitle <本怖！貴方の後ろにいるよ>;
+  # touhou:CharacterTitle <意図せずに心を閉ざしたサトリ>;
+    .
+
+
+# 星蓮船
+
+<ナズーリン> a touhou:Character;
+    rdf:label                   "ナズーリン", "Nazrin"@en;
+    schema:name                 "ナズーリン", "Nazrin"@en;
+    touhou:NameKana             "なずーりん";
+    touhou:NamePronunciation    "nazɯːɽʲiɴ";
+    touhou:Species              <妖怪ネズミ>;
+    .
+
+<多々良_小傘> a touhou:Character;
+    rdf:label                   "多々良 小傘", "Kogasa Tatara"@en;
+    schema:name                 "多々良 小傘", "Kogasa Tatara"@en;
+    touhou:NameKana             "たたら こがさ";
+    touhou:NamePronunciation    "tataɽa koɡasa";
+    touhou:Species              <唐傘お化け>;
+    .
+
+<雲居_一輪> a touhou:Character;
+    rdf:label                 "雲居 一輪", "Ichirin Kumoi"@en;
+    schema:name                 "雲居 一輪", "Ichirin Kumoi"@en;
+    touhou:NameKana             "くもい いちりん";
+    touhou:NamePronunciation    "kɯmoi it͡ɕiɽʲiɴ";
+    touhou:Species              <妖怪>;
+    .
+
+<雲山> a touhou:Character;
+    rdf:label         "雲山", "Unzan"@en;
+    schema:name                 "雲山", "Unzan"@en;
+    touhou:NameKana             "うんざん";
+    touhou:NamePronunciation    "ɯ̃ᵝnzã̠ɴ";
+    touhou:Species              <入道>;
+    .
+
+<村紗_水蜜> a touhou:Character;
+    rdf:label                   "村紗 水蜜", "Minamitsu Murasa"@en;
+    schema:name                 "村紗 水蜜", "Minamitsu Murasa"@en;
+    touhou:NameKana             "むらさ みなみつ";
+    touhou:NamePronunciation    "mɯɽasa mʲinamʲit͡sɯ";
+    touhou:Species              <舟幽霊>;
+    .
+
+<寅丸_星> a touhou:Character;
+    rdf:label                 "寅丸 星", "Shou Toramaru"@en;
+    schema:name                 "寅丸 星", "Shou Toramaru"@en;
+    touhou:NameKana             "とらまる しょう";
+    touhou:NamePronunciation    "toɽamaɽɯ ɕoː";
+    touhou:Species              <妖怪>;
+    .
+
+<聖_白蓮> a touhou:Character;
+    rdf:label               "聖 白蓮", "Byakuren Hijiri"@en;
+    schema:name                 "聖 白蓮", "Byakuren Hijiri"@en;
+    touhou:NameKana             "ひじり びゃくれん";
+    touhou:NamePronunciation    "çid͡ʑiɽʲi bʲakɯɽeɴ";
+    touhou:Species              <魔法使い>, <元人間>;
+    .
+
+<封獣_ぬえ> a touhou:Character;
+    rdf:label                  "封獣 ぬえ", "Nue Houjuu"@ja;
+    schema:name                 "封獣 ぬえ", "Nue Houjuu"@ja;
+    touhou:NameKana             "ほうじゅう ぬえ";
+    touhou:NamePronunciation    "hoːd͡ʑɯː nɯe";
+    touhou:Species              <鵺>;
+    .

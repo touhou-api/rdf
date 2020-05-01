@@ -1,4 +1,4 @@
-@base <https://touhou-api.org/resource/> .
+@base <https://touhou-api.org/resources/> .
 
 @prefix touhou: <https://touhou-api.org/schema/> .
 
@@ -8,23 +8,58 @@
 # Classes
 
 touhou:Character        a   rdfs:Class;
+    rdfs:label              "キャラクター";
     rdfs:comment            "キャラクターを表すクラス";
-    rdfs:label              "キャラクター"@ja.
+    .
 
 touhou:Game             a   rdfs:Class;
+    rdfs:label              "ゲーム";
     rdfs:comment            "ゲームを表すクラス";
-    rdfs:label              "ゲーム"@ja.
+    .
+
+touhou:Music            a   rdfs:Class;
+    rdfs:label              "音楽";
+    rdfs:comment            "音楽を表すクラス";
+    .
+
+touhou:Music            a   rdfs:Class;
+    rdfs:label              "音楽";
+    rdfs:comment            "音楽を表すクラス";
+    .
+
+touhou:Species          a   rdfs:Class;
+    rdfs:label              "種族";
+    rdfs:comment            "種族を表すプロパティ";
+    .
 
 # Properties
 
+touhou:GameNumber           a   rdfs:Property;
+    rdfs:label                  "ゲームのナンバー";
+    rdfs:comment                "ゲームのナンバーを表すプロパティ";
+    .
+
+touhou:GameAbbreviation     a   rdfs:Property;
+    rdfs:label                  "ゲームの略称";
+    rdfs:comment                "ゲームの略称を表すプロパティ";
+    .
+
+touhou:GameRole             a   rdfs:Property;
+    rdfs:label                  "ゲーム上での役割";
+    rdfs:comment                "ゲーム上での役割（自機、ボスなど）を表すプロパティ";
+    .
+
 touhou:NameKana             a   rdfs:Property;
+    rdfs:label                  "名前のよみがな";
     rdfs:comment                "名前のよみがなを表すプロパティ";
-    rdfs:label                  "種族"@ja.
+    .
 
 touhou:NamePronunciation    a   rdfs:Property;
+    rdfs:label                  "名前の発音";
     rdfs:comment                "名前の発音を表すプロパティ";
-    rdfs:label                  "種族"@ja.
+    .
 
-touhou:Species              a   rdfs:Property;
-    rdfs:comment                "種族を表すプロパティ";
-    rdfs:label                  "種族"@ja.
+touhou:MusicThemeOf         a   rdfs:Property;
+    rdfs:label                  "誰のテーマ曲か";
+    rdfs:comment                "誰のテーマ曲かを表すプロパティ";
+    .

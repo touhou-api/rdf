@@ -1,0 +1,47 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+# 人間
+
+<人間>  a   touhou:Species;
+    rdfs:label  "人間", "Human"@en;
+    .
+
+# 妖怪
+
+<妖怪>  a   touhou:Species;
+    rdfs:label      "妖怪", "Youkai"@en;
+    .
+
+<覚>    a   touhou:Species;
+    rdfs:label      "覚", "Satori"@en;
+    rdfs:subClassOf <妖怪>;
+    .
+
+<鵺>    a   touhou:Species;
+    rdfs:label      "鵺", "Nue"@en;
+    rdfs:subClassOf <妖怪>;
+    .
+
+# 妖怪 > 幽霊
+
+<幽霊>      a   touhou:Species;
+    rdfs:label      "幽霊", "Phantom"@en;
+    rdfs:subClassOf <妖怪>;
+    .
+
+<舟幽霊>    a   touhou:Species;
+    rdfs:label      "舟幽霊", "Ship Phantom"@en;
+    rdfs:subClassOf <幽霊>;
+    .
+
+# ?
+
+<魔法使い>  a   touhou:Species;
+    rdfs:label  "魔法使い", "Magician"@en;
+    .

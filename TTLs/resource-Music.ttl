@@ -1,0 +1,17 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+<万年置き傘にご注意を> a touhou:Music;
+    schema:title        "万年置き傘にご注意を";
+    touhou:MusicThemeOf <多々良小傘>;
+    .
+
+<ハルトマンの妖怪少女> a touhou:Music;
+    schema:title        "ハルトマンの妖怪少女";
+    touhou:MusicThemeOf <古明地こいし>;
+    .
