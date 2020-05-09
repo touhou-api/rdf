@@ -1,0 +1,13 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+<東方夢時空_～_Phantasmagoria_of_Dim.Dream.> a touhou:Game;
+    touhou:GameNumber   3;
+    touhou:Generation   <PC-98>;
+    schema:title        "東方夢時空　～ Phantasmagoria of Dim.Dream.";
+    .

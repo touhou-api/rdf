@@ -1,0 +1,115 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+<東方地霊殿_～_Subterranean_Animism.> a touhou:Game;
+    touhou:GameNumber       11;
+    touhou:Generation       <Windows>;
+    schema:title            "東方地霊殿　～ Subterranean Animism.";
+    schema:alternateName    "地霊殿"@ja, "SA"@en;
+    touhou:CharacterRole    [
+        touhou:Character        <博麗_霊夢>;
+        touhou:Role             <自機>;
+        touhou:CharacterTitle   <楽園の巫女>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <八雲_紫>;
+        touhou:Role             "パートナー";
+        touhou:CharacterTitle   <境界の妖怪>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <伊吹_萃香>;
+        touhou:Role             "パートナー";
+        touhou:CharacterTitle   <小さな百鬼夜行>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <射命丸_文>;
+        touhou:Role             "パートナー";
+        touhou:CharacterTitle   <伝統の幻想ブン屋>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <霧雨_魔理沙>;
+        touhou:Role             <自機>;
+        touhou:CharacterTitle   <普通の魔法使い>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <アリス・マーガトロイド>;
+        touhou:Role             "パートナー";
+        touhou:CharacterTitle   <七色の人形遣い>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <パチュリー・ノーレッジ>;
+        touhou:Role             "パートナー";
+        touhou:CharacterTitle   <動かない大図書館>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <河城_にとり>;
+        touhou:Role             "パートナー";
+        touhou:CharacterTitle   <超妖怪弾頭>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <キスメ>;
+        touhou:Role             <1面中ボス>;
+        touhou:CharacterTitle   <恐るべき井戸の怪>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <黒谷_ヤマメ>;
+        touhou:Role             <1面ボス>;
+        touhou:CharacterTitle   <暗い洞窟の明るい網>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <水橋_パルスィ>;
+        touhou:Role             <2面ボス>;
+        touhou:CharacterTitle   <地殻の下の嫉妬心>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <星熊_勇儀>;
+        touhou:Role             <3面ボス>;
+        touhou:CharacterTitle   <語られる怪力乱神>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <古明地_さとり>;
+        touhou:Role             <4面ボス>;
+        touhou:CharacterTitle   <恐霊も恐れ怯む少女>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <火焔猫_燐>;
+        touhou:Role             <4面中ボス>, <5面中ボス>, <5面ボス>, <6面中ボス>;
+        touhou:CharacterTitle   <地獄の輪禍>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <霊烏路_空>;
+        touhou:Role             <6面ボス>;
+        touhou:CharacterTitle   <熱かい悩む神の火>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <東風谷_早苗>;
+        touhou:Role             <Ex中ボス>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <古明地_こいし>;
+        touhou:Role             <Exボス>;
+        touhou:CharacterTitle   <閉じた恋の瞳>;
+    ];
+    touhou:Music            <地霊達の起床>,
+                            <暗闇の風穴>,
+                            <封じられた妖怪>,
+                            <渡る者の途絶えた橋>,
+                            <緑眼のジェラシー>,
+                            <旧地獄街道を行く>,
+                            <華のさかづき大江山>,
+                            <ハートフェルトファンシー>,
+                            <少女さとり_〜_3rd_eye>,
+                            <廃獄ララバイ>,
+                            <死体旅行_〜_Be_of_good_cheer!>,
+                            <業火マントル>,
+                            <霊知の太陽信仰_〜_Nuclear_Fusion>,
+                            <ラストリモート>,
+                            <ハルトマンの妖怪少女>,
+                            <地霊達の帰宅>,
+                            <エネルギー黎明_～_Future_Dream...>;
+    .

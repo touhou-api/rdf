@@ -1,0 +1,35 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+<東方心綺楼_～_Hopeless_Masquerade.> a touhou:Game;
+    touhou:GameNumber   13.5;
+    touhou:Generation   <Windows>;
+    schema:title        "東方心綺楼　～ Hopeless Masquerade.";
+    touhou:Music        <塵界不変のペシミズム>,
+                        <心綺楼囃子>,
+                        <人気のある場所>,
+                        <人気のない場所>,
+                        <本日の一面記事>,
+                        <春色小径_～_Colorful_Path>,
+                        <メイガスナイト>,
+                        <時代親父とハイカラ少女>,
+                        <感情の摩天楼_～_Cosmic_Mind>,
+                        <大神神話伝>,
+                        <聖徳伝説_～_True_Administrator>,
+                        <芥川龍之介の河童_～_Candid_Friend>,
+                        <ハルトマンの妖怪少女>,
+                        <佐渡の二ッ岩>,
+                        <幻想郷の二ッ岩>,
+                        <丑三つ時の里>,
+                        <丑三つ時の里>,
+                        <亡失のエモーション>,
+                        <暁雲>,
+                        <官板黄昏新聞>,
+                        <演者選択>,
+                        <ラストワード発動>;
+    .

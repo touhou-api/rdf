@@ -1,0 +1,89 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+<万年置き傘にご注意を> a touhou:Music;
+    schema:title        "万年置き傘にご注意を";
+    touhou:MusicThemeOf <多々良_小傘>;
+    .
+
+# 地霊殿
+
+<地霊達の起床> a touhou:Music;
+    schema:title        "地霊達の起床";
+    .
+
+<暗闇の風穴> a touhou:Music;
+    schema:title        "暗闇の風穴";
+    .
+
+<封じられた妖怪> a touhou:Music;
+    schema:title        "封じられた妖怪";
+    touhou:MusicThemeOf <黒谷_ヤマメ>;
+    .
+
+<渡る者の途絶えた橋> a touhou:Music;
+    schema:title        "渡る者の途絶えた橋";
+    .
+
+<緑眼のジェラシー> a touhou:Music;
+    schema:title        "緑眼のジェラシー";
+    touhou:MusicThemeOf <水橋_パルスィ>;
+    .
+
+<旧地獄街道を行く> a touhou:Music;
+    schema:title        "旧地獄街道を行く";
+    .
+
+<華のさかづき大江山> a touhou:Music;
+    schema:title        "華のさかづき大江山";
+    touhou:MusicThemeOf <星熊_勇儀>;
+    .
+
+<ハートフェルトファンシー> a touhou:Music;
+    schema:title        "ハートフェルトファンシー";
+    .
+
+<少女さとり_〜_3rd_eye> a touhou:Music;
+    schema:title        "少女さとり 〜 3rd_eye";
+    touhou:MusicThemeOf <古明地_さとり>;
+    .
+
+<廃獄ララバイ> a touhou:Music;
+    schema:title        "廃獄ララバイ";
+    .
+
+<死体旅行_〜_Be_of_good_cheer!> a touhou:Music;
+    schema:title        "死体旅行 〜 Be of good cheer!";
+    touhou:MusicThemeOf <火焔猫_燐>;
+    .
+
+<業火マントル> a touhou:Music;
+    schema:title        "業火マントル";
+    .
+
+<霊知の太陽信仰_〜_Nuclear_Fusion> a touhou:Music;
+    schema:title        "霊知の太陽信仰 〜 Nuclear Fusion";
+    touhou:MusicThemeOf <霊烏路_空>;
+    .
+
+<ラストリモート> a touhou:Music;
+    schema:title        "ラストリモート";
+    .
+
+<ハルトマンの妖怪少女> a touhou:Music;
+    schema:title        "ハルトマンの妖怪少女";
+    touhou:MusicThemeOf <古明地_こいし>;
+    .
+
+<地霊達の帰宅> a touhou:Music;
+    schema:title        "地霊達の帰宅";
+    .
+
+<エネルギー黎明_～_Future_Dream...> a touhou:Music;
+    schema:title        "エネルギー黎明 ～ Future Dream";
+    .

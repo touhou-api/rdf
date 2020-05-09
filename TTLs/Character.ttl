@@ -7,47 +7,111 @@
 @prefix schema:     <http://schema.org/>.
 
 <博麗_霊夢> a touhou:Character;
-    rdf:label                   "博麗 霊夢", "Reimu Hakurei"@en;
     schema:name                 "博麗 霊夢", "Reimu Hakurei"@en;
     touhou:NameKana             "はくれい れいむ";
     touhou:NamePronunciation    "hakɯɽeː ɽeːmɯ";
     touhou:Species              <人間>;
+    touhou:CharacterOf          [
+        touhou:Role             <自機>;
+        touhou:Game             <東方地霊殿_～_Subterranean_Animism.>;
+        touhou:CharacterTitle   <楽園の巫女>;
+    ];
     .
 
 <霧雨_魔理沙> a touhou:Character;
-    rdf:label                   "霧雨 魔理沙", "Marisa Kirisame"@en;
     schema:name                 "霧雨 魔理沙", "Marisa Kirisame"@en;
     touhou:NameKana             "きりさめ まりさ";
     touhou:NamePronunciation    "kiɾisa̠me̞ ma̠ɾisa̠";
     touhou:Species              <人間>;
     .
 
+<東風谷_早苗> a touhou:Character;
+    schema:name                 "東風谷 早苗", "Sanae Kotiya"@en;
+    touhou:NameKana             "こちや さなえ";
+    touhou:Species              <人間>, <現人神>;
+    .
+
+<十六夜_咲夜> a touhou:Character;
+    schema:name                 "十六夜 咲夜", "Sakuya Izayoi"@en;
+    touhou:NameKana             "いざよい さくや";
+    touhou:Species              <人間>;
+    .
+
+<稗田_阿求> a touhou:Character;
+    schema:name                 "稗田 阿求", "Hieda no Akyuu"@en;
+    touhou:NameKana             "ひえだ の あきゅう";
+    touhou:Species              <人間>;
+    .
+
+<本居_小鈴> a touhou:Character;
+    schema:name                 "本居 小鈴", "Kosuzu Motoori"@en;
+    touhou:NameKana             "もとおり こすず";
+    touhou:Species              <人間>;
+    .
+
+<宇佐見_菫子> a touhou:Character;
+    schema:name                 "宇佐見 菫子", "Sumireko Usami"@en;
+    touhou:NameKana             "うさみ すみれこ";
+    touhou:Species              <人間>;
+    .
+
+# 萃夢想
+<伊吹_萃香> a touhou:Character;
+    schema:name                 "伊吹 萃香"@ja, "Suika Ibuki"@en;
+    touhou:Species              <鬼>;
+    .
+
 # 地霊殿
+<キスメ> a touhou:Character;
+    schema:name                 "キスメ"@ja, "Kisume"@en;
+    touhou:Species              <釣瓶落とし>;
+    .
+
+<黒谷_ヤマメ> a touhou:Character;
+    schema:name                 "黒谷 ヤマメ"@ja, "Yamame Kurodani"@en;
+    touhou:Species              <土蜘蛛>;
+    .
+
+<水橋_パルスィ> a touhou:Character;
+    schema:name                 "水橋 パルスィ"@ja, "Parsee Mizuhashi"@en;
+    touhou:Species              <橋姫>;
+    .
+
+<星熊_勇儀> a touhou:Character;
+    schema:name                 "星熊 勇儀"@ja, "Yuugi Hoshiguma"@en;
+    touhou:Species              <鬼>;
+    .
+
+<古明地_さとり> a touhou:Character;
+    schema:name                 "古明地 さとり"@ja, "Satori Komeiji"@en;
+    schema:siblings             <古明地_こいし>;
+    touhou:NameKana             "こめいじ さとり";
+    touhou:Species              <覚>;
+    .
+
+<火焔猫_燐> a touhou:Character;
+    schema:name                 "火焔猫 燐"@ja, "Rin Kaenbyou"@en;
+    touhou:NameKana             "かえんびょう りん";
+    touhou:Species              <火車>;
+    .
+
+<霊烏路_空> a touhou:Character;
+    schema:name                 "霊烏路 空"@ja, "Utsuho Reiuji"@en;
+    touhou:NameKana             "れいうじ うつほ";
+    touhou:Species              <地獄鴉_with_八咫烏>;
+    .
 
 <古明地_こいし> a touhou:Character;
-    rdf:label                   "Koishi Komeiji", "Koishi Komeiji"@en;
-    schema:name                 "Koishi Komeiji", "Koishi Komeiji"@en;
+    schema:name                 "古明地 こいし"@ja, "Koishi Komeiji"@en;
+    schema:siblings             <古明地_さとり>;
     touhou:NameKana             "こめいじ こいし";
     touhou:NamePronunciation    "komeːd͡ʑi koiɕi";
     touhou:Species              <覚>;
-  # touhou:Game           game:<東方地霊殿>;
-  # touhou:Game           game:<ダブルスポイラー～東方文花帖>;
-  # touhou:Game           game:<東方心綺楼>;
-  # touhou:Game           game:<東方深秘録>;
-  # touhou:Game           game:<東方憑依華>;
-  # touhou:Game           game:<秘封ナイトメアダイアリー>;
-  # touhou:CharacterTitle <閉じた恋の瞳>;
-  # touhou:CharacterTitle <何も考えていない者>;
-  # touhou:CharacterTitle <空想上の人格保持者>;
-  # touhou:CharacterTitle <本怖！貴方の後ろにいるよ>;
-  # touhou:CharacterTitle <意図せずに心を閉ざしたサトリ>;
     .
-
 
 # 星蓮船
 
 <ナズーリン> a touhou:Character;
-    rdf:label                   "ナズーリン", "Nazrin"@en;
     schema:name                 "ナズーリン", "Nazrin"@en;
     touhou:NameKana             "なずーりん";
     touhou:NamePronunciation    "nazɯːɽʲiɴ";
@@ -55,7 +119,6 @@
     .
 
 <多々良_小傘> a touhou:Character;
-    rdf:label                   "多々良 小傘", "Kogasa Tatara"@en;
     schema:name                 "多々良 小傘", "Kogasa Tatara"@en;
     touhou:NameKana             "たたら こがさ";
     touhou:NamePronunciation    "tataɽa koɡasa";
@@ -63,7 +126,6 @@
     .
 
 <雲居_一輪> a touhou:Character;
-    rdf:label                 "雲居 一輪", "Ichirin Kumoi"@en;
     schema:name                 "雲居 一輪", "Ichirin Kumoi"@en;
     touhou:NameKana             "くもい いちりん";
     touhou:NamePronunciation    "kɯmoi it͡ɕiɽʲiɴ";
@@ -71,7 +133,6 @@
     .
 
 <雲山> a touhou:Character;
-    rdf:label         "雲山", "Unzan"@en;
     schema:name                 "雲山", "Unzan"@en;
     touhou:NameKana             "うんざん";
     touhou:NamePronunciation    "ɯ̃ᵝnzã̠ɴ";
@@ -79,7 +140,6 @@
     .
 
 <村紗_水蜜> a touhou:Character;
-    rdf:label                   "村紗 水蜜", "Minamitsu Murasa"@en;
     schema:name                 "村紗 水蜜", "Minamitsu Murasa"@en;
     touhou:NameKana             "むらさ みなみつ";
     touhou:NamePronunciation    "mɯɽasa mʲinamʲit͡sɯ";
@@ -87,7 +147,6 @@
     .
 
 <寅丸_星> a touhou:Character;
-    rdf:label                 "寅丸 星", "Shou Toramaru"@en;
     schema:name                 "寅丸 星", "Shou Toramaru"@en;
     touhou:NameKana             "とらまる しょう";
     touhou:NamePronunciation    "toɽamaɽɯ ɕoː";
@@ -95,7 +154,6 @@
     .
 
 <聖_白蓮> a touhou:Character;
-    rdf:label               "聖 白蓮", "Byakuren Hijiri"@en;
     schema:name                 "聖 白蓮", "Byakuren Hijiri"@en;
     touhou:NameKana             "ひじり びゃくれん";
     touhou:NamePronunciation    "çid͡ʑiɽʲi bʲakɯɽeɴ";
@@ -103,7 +161,6 @@
     .
 
 <封獣_ぬえ> a touhou:Character;
-    rdf:label                  "封獣 ぬえ", "Nue Houjuu"@ja;
     schema:name                 "封獣 ぬえ", "Nue Houjuu"@ja;
     touhou:NameKana             "ほうじゅう ぬえ";
     touhou:NamePronunciation    "hoːd͡ʑɯː nɯe";

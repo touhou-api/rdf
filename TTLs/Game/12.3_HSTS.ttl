@@ -1,0 +1,13 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+<東方非想天則_～_超弩級ギニョルの謎を追え> a touhou:Game;
+    touhou:GameNumber   12.3;
+    touhou:Generation   <Windows>;
+    schema:title        "東方非想天則　～ 超弩級ギニョルの謎を追え";
+    .

@@ -1,0 +1,13 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+<東方花映塚_～_Phantasmagoria_of_Flower_View.> a touhou:Game;
+    touhou:GameNumber   9;
+    touhou:Generation   <Windows>;
+    schema:title        "東方花映塚　～ Phantasmagoria of Flower View.";
+    .

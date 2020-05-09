@@ -8,28 +8,41 @@
 # Classes
 
 touhou:Character        a   rdfs:Class;
-    rdfs:label              "キャラクター";
+    rdfs:label              "キャラクター"@ja;
     rdfs:comment            "キャラクターを表すクラス";
     .
 
 touhou:Game             a   rdfs:Class;
-    rdfs:label              "ゲーム";
+    rdfs:label              "ゲーム"@ja, "Game"@en;
     rdfs:comment            "ゲームを表すクラス";
     .
 
 touhou:Music            a   rdfs:Class;
-    rdfs:label              "音楽";
+    rdfs:label              "音楽"@ja;
     rdfs:comment            "音楽を表すクラス";
     .
 
 touhou:Music            a   rdfs:Class;
-    rdfs:label              "音楽";
+    rdfs:label              "音楽"@ja;
     rdfs:comment            "音楽を表すクラス";
     .
 
 touhou:Species          a   rdfs:Class;
-    rdfs:label              "種族";
+    rdfs:label              "種族"@ja;
     rdfs:comment            "種族を表すプロパティ";
+    .
+
+touhou:Generation       a   rdfs:Class;
+    rdfs:label              "シリーズ"@ja, "Generation"@en;
+    rdfs:comment            "TODO:現状では旧作かWindowsかのどっちかです";
+    .
+
+touhou:Role             a   rdfs:Class;
+    rdfs:label              "役割"@ja, "Role"@en;
+    .
+
+touhou:CharacterTitle   a   rdfs:Class;
+    rdfs:label              "二つ名"@ja, "Character Title"@en;
     .
 
 # Properties
@@ -59,7 +72,10 @@ touhou:NamePronunciation    a   rdfs:Property;
     rdfs:comment                "名前の発音を表すプロパティ";
     .
 
-touhou:MusicThemeOf         a   rdfs:Property;
+touhou:MusicThemeOf         a   rdfs:Character;
     rdfs:label                  "誰のテーマ曲か";
     rdfs:comment                "誰のテーマ曲かを表すプロパティ";
+    .
+
+touhou:CharacterOf          a   rdfs:Property;
     .

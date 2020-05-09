@@ -1,0 +1,64 @@
+@base <https://touhou-api.org/resource/> .
+
+@prefix touhou:     <https://touhou-api.org/schema/>.
+
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema:     <http://schema.org/>.
+
+<東方星蓮船_～_Undefined_Fantastic_Object.> a touhou:Game;
+    touhou:GameNumber       12;
+    touhou:Generation       <Windows>;
+    schema:title            "東方星蓮船　～ Undefined Fantastic Object.";
+    schema:alternateName    "星蓮船"@ja, "UFO"@en;
+    touhou:CharacterRole    [
+        touhou:Character        <博麗_霊夢>;
+        touhou:Role             <自機>;
+        touhou:CharacterTitle   <楽園の巫女>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <霧雨_魔理沙>;
+        touhou:Role             <自機>;
+        touhou:CharacterTitle   <普通の魔法使い>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <東風谷_早苗>;
+        touhou:Role             <自機>;
+        touhou:CharacterTitle   <山の新人神様>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <ナズーリン>;
+        touhou:Role             <1面中ボス>, <1面ボス>, <5面中ボス>;
+        touhou:CharacterTitle   <ダウザーの小さな大将>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <多々良_小傘>;
+        touhou:Role             <2面中ボス>, <2面ボス>, <Ex中ボス>;
+        touhou:CharacterTitle   <愉快な忘れ傘>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <雲居_一輪>, <雲山>;
+        touhou:Role             <3面中ボス>, <3面ボス>;
+        touhou:CharacterTitle   <守り守られし大輪>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <村紗_水蜜>;
+        touhou:Role             <4面ボス>;
+        touhou:CharacterTitle   <水難事故の念縛霊>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <寅丸_星>;
+        touhou:Role             <5面ボス>;
+        touhou:CharacterTitle   <毘沙門天の弟子>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <聖_白蓮>;
+        touhou:Role             <6面ボス>;
+        touhou:CharacterTitle   <封印された大魔法使い>;
+    ];
+    touhou:CharacterRole    [
+        touhou:Character        <封獣_ぬえ>;
+        touhou:Role             <Exボス>;
+        touhou:CharacterTitle   <未確認幻想飛行少女>;
+    ];
+    .
